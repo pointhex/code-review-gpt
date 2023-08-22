@@ -29,6 +29,7 @@ const main = async () => {
       break;
     default:
       logger.error("Unknown command");
+
       process.exit(1);
   }
 };
